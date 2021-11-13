@@ -4,7 +4,7 @@
 local name = game:GetService("Players").LocalPlayer.Name
 local backpack = game:GetService("Players").LocalPlayer.Backpack
 local humanoid = game:GetService("Workspace"):FindFirstChild(name)
-_G.AutoMove = false
+_G.AutoMove = true
 --Moves
 
 local Fireball = game.Players.LocalPlayer.Backpack:FindFirstChild("Fireball")
